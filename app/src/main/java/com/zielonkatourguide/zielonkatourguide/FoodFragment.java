@@ -24,12 +24,12 @@ public class FoodFragment extends Fragment {
         View rootElement = inflater.inflate(R.layout.attractions_list, container, false);
         ListView listView = (ListView) rootElement.findViewById(R.id.list);
         ArrayList<Attraction> monumentsList = new ArrayList<>();
-        monumentsList.add(new Attraction(getString(R.string.food_1)));
-        monumentsList.add(new Attraction(getString(R.string.food_2)));
-        monumentsList.add(new Attraction(getString(R.string.food_3)));
-        monumentsList.add(new Attraction(getString(R.string.food_4)));
-        monumentsList.add(new Attraction(getString(R.string.food_5)));
-        monumentsList.add(new Attraction(getString(R.string.food_6)));
+        monumentsList.add(new Attraction(R.drawable.food_rozlogi, getString(R.string.food_1)));
+        monumentsList.add(new Attraction(R.drawable.food_cubana, getString(R.string.food_2)));
+        monumentsList.add(new Attraction(R.drawable.food_ring, getString(R.string.food_3)));
+        monumentsList.add(new Attraction(R.drawable.food_ives, getString(R.string.food_4)));
+        monumentsList.add(new Attraction(R.drawable.food_dagrasso,getString(R.string.food_5)));
+        monumentsList.add(new Attraction(R.drawable.food_macjack, getString(R.string.food_6)));
         attractionsAdapter = new AttractionsAdapter(getActivity(), monumentsList);
         listView.setAdapter(attractionsAdapter);
         return rootElement;
