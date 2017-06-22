@@ -7,23 +7,28 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 class TourGuideFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    Context mContext;
 
     private String tabTitles[];
 
     public TourGuideFragmentPagerAdapter(Context context, FragmentManager fm) {
         super(fm);
-        mContext = context;
         tabTitles = new String[] {
-                mContext.getString(R.string.tab_info),
-                "Colors",
-                "Family",
-                "Phrases" };
+                context.getString(R.string.tab_monuments),
+                context.getString(R.string.tab_restaurants),
+                context.getString(R.string.tab_transport),
+                context.getString(R.string.tab_hotels) };
     }
 
     @Override
     public Fragment getItem(int position) {
-        return new InfoFragment();
+        if(position == 0)
+            return new MonumentsFragment();
+        else if (position == 1)
+            return new FoodFragment();
+        else if (position == 2)
+            return new TransportFragment();
+        else
+            return new HotelsFragment();
     }
 
     @Override

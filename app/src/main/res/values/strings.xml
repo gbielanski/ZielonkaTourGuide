@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Zielonka Tour Guide</string>
-    <string name="tab_info">Info</string>
+    <string name="tab_monuments">Monuments</string>
+    <string name="tab_restaurants">Food</string>
+    <string name="tab_transport">Transport</string>
+    <string name="monument_1">Church Mother of Czestochowa from 1936-1939</string>
+    <string name="monument_2">Square of the Home Army together with the monument of the soldiers of the Home Army and the shot of the inhabitants</string>
+    <string name="monument_3">Former hostel for teachers from 1902 - neo-gothic, two-storey building Stefan Szyller</string>
+    <string name="food_1">Restaurant \"Dwór Rozłogi\"</string>
+    <string name="food_2">Cubana Ristorante</string>
+    <string name="food_3">Sushi Bar Ring</string>
+    <string name="food_4">Bar Ives Kebab</string>
+    <string name="food_5">Pizzeria \"Da Grasso\"</string>
+    <string name="tab_hotels">Hotels</string>
 </resources>
