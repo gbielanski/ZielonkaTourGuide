@@ -20,11 +20,11 @@ public class HotelsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.attractions_list, container, false);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         ArrayList<Attraction> attractionsList = new ArrayList<>();
-        attractionsList.add(new Attraction(getString(R.string.hotel_1)));
-        attractionsList.add(new Attraction(getString(R.string.hotel_2)));
-        attractionsList.add(new Attraction(getString(R.string.hotel_3)));
-        attractionsList.add(new Attraction(getString(R.string.hotel_4)));
-        attractionsList.add(new Attraction(getString(R.string.hotel_5)));
+        attractionsList.add(new Attraction(getString(R.string.hotel_pietrzakow)));
+        attractionsList.add(new Attraction(getString(R.string.hotel_trylogia)));
+        attractionsList.add(new Attraction(getString(R.string.hotel_evotel)));
+        attractionsList.add(new Attraction(getString(R.string.hotel_crysti)));
+        attractionsList.add(new Attraction(getString(R.string.hotel_copa)));
         AttractionsAdapter attractionsAdapter = new AttractionsAdapter(getActivity(), attractionsList);
         listView.setAdapter(attractionsAdapter);
         return rootView;

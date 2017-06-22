@@ -12,16 +12,16 @@ class TourGuideFragmentPagerAdapter extends FragmentPagerAdapter {
 
     public TourGuideFragmentPagerAdapter(Context context, FragmentManager fm) {
         super(fm);
-        tabTitles = new String[] {
+        tabTitles = new String[]{
                 context.getString(R.string.tab_monuments),
                 context.getString(R.string.tab_restaurants),
                 context.getString(R.string.tab_transport),
-                context.getString(R.string.tab_hotels) };
+                context.getString(R.string.tab_hotels)};
     }
 
     @Override
     public Fragment getItem(int position) {
-        if(position == 0)
+        if (position == 0)
             return new MonumentsFragment();
         else if (position == 1)
             return new FoodFragment();

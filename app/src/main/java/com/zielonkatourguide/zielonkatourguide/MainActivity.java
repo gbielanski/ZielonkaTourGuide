@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
-        ViewPager viewPager =  (ViewPager)findViewById(R.id.viewpager);
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         TourGuideFragmentPagerAdapter tourGuideFragmentPagerAdapter = new TourGuideFragmentPagerAdapter(this, getSupportFragmentManager());
         viewPager.setAdapter(tourGuideFragmentPagerAdapter);
 

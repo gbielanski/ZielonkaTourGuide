@@ -25,12 +25,12 @@ public class MonumentsFragment extends Fragment {
         View rootElement = inflater.inflate(R.layout.attractions_list, container, false);
         ListView listView = (ListView) rootElement.findViewById(R.id.list);
         ArrayList<Attraction> monumentsList = new ArrayList<>();
-        monumentsList.add(new Attraction(R.drawable.monument_church, getString(R.string.monument_1)));
-        monumentsList.add(new Attraction(R.drawable.monument_skwer, getString(R.string.monument_2)));
-        monumentsList.add(new Attraction(R.drawable.monument_former_hostel, getString(R.string.monument_3)));
-        monumentsList.add(new Attraction(R.drawable.monument_house, getString(R.string.monument_4)));
-        monumentsList.add(new Attraction(R.drawable.monument_plaque, getString(R.string.monument_5)));
-        monumentsList.add(new Attraction(R.drawable.monument_museum, getString(R.string.monument_6)));
+        monumentsList.add(new Attraction(R.drawable.monument_church, getString(R.string.monument_church)));
+        monumentsList.add(new Attraction(R.drawable.monument_skwer, getString(R.string.monument_square)));
+        monumentsList.add(new Attraction(R.drawable.monument_former_hostel, getString(R.string.monument_former_hostel)));
+        monumentsList.add(new Attraction(R.drawable.monument_house, getString(R.string.monument_residence)));
+        monumentsList.add(new Attraction(R.drawable.monument_plaque, getString(R.string.monument_plaque)));
+        monumentsList.add(new Attraction(R.drawable.monument_museum, getString(R.string.monument_museum)));
         attractionsAdapter = new AttractionsAdapter(getActivity(), monumentsList);
         listView.setAdapter(attractionsAdapter);
 

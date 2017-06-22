@@ -34,9 +34,9 @@ public class AttractionsAdapter extends ArrayAdapter<Attraction> {
         int attractionResourceId = attraction.getResourceId();
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image_view);
 
-        if (attractionResourceId == 0){
+        if (attractionResourceId == 0) {
             imageView.setVisibility(View.GONE);
-        } else{
+        } else {
             imageView.setVisibility(View.VISIBLE);
             imageView.setImageResource(attractionResourceId);
         }

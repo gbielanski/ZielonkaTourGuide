@@ -15,6 +15,7 @@ class Attraction {
         mResourceId = 0;
         mDescription = description;
     }
+
     public int getResourceId() {
         return mResourceId;
     }

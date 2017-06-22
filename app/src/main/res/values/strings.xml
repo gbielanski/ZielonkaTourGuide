@@ -1,29 +1,34 @@
 <resources>
     <string name="app_name">Zielonka Tour Guide</string>
+
     <string name="tab_monuments">Monuments</string>
     <string name="tab_restaurants">Food</string>
     <string name="tab_transport">Transport</string>
-    <string name="monument_1">Church Mother of Czestochowa from 1936-1939</string>
-    <string name="monument_2">Square of the Home Army together with the monument of the soldiers of the Home Army and the shot of the inhabitants</string>
-    <string name="monument_3">Former hostel for teachers from 1902 - neo-gothic, two-storey building Stefan Szyller</string>
-    <string name="food_1">Restaurant \"Dwór Rozłogi\"</string>
-    <string name="food_2">Cubana Ristorante</string>
-    <string name="food_3">Sushi Bar Ring</string>
-    <string name="food_4">Bar Ives Kebab</string>
-    <string name="food_5">Pizzeria \"Da Grasso\"</string>
     <string name="tab_hotels">Hotels</string>
-    <string name="hotel_1">Hotel \"U Pietrzaków\" ul. Lipowa 20 Zielonka</string>
-    <string name="hotel_2">Hotel Trylogia ul. Poniatowskiego 46 Zielonka</string>
-    <string name="hotel_3">Hostel Evotel ul. Południowa 9 Zielonka</string>
-    <string name="hotel_4">Crysti Polski Dom ul. Poniatowskiego 62 Zielonka</string>
-    <string name="hotel_5">Motel Copa Cabana ul. Marecka 51 Zielonka</string>
-    <string name="food_6">MacJack</string>
-    <string name="transport_1">PKP Koleje Mazowieckie from Dworzec Wileński Station</string>
-    <string name="transport_2">Local line LZ-1</string>
-    <string name="transport_3">Local line LZ-2</string>
-    <string name="transport_4">Stalko line W</string>
-    <string name="transport_5">Stalko line J</string>
-    <string name="monument_4">The summer residence on the 11th Street of Kolejowa from the 18th century</string>
-    <string name="monument_5">\"Expulsion\" plaque at Mickiewicza Street</string>
-    <string name="monument_6">Museum of Zielonka</string>
+
+    <string name="monument_church">Church Mother of Czestochowa from 1936-1939</string>
+    <string name="monument_square">Square of the Home Army together with the monument of the soldiers of the Home Army and the shot of the inhabitants</string>
+    <string name="monument_former_hostel">Former hostel for teachers from 1902 - neo-gothic, two-storey building Stefan Szyller</string>
+    <string name="monument_residence">The summer residence on the 11th Street of Kolejowa from the 18th century</string>
+    <string name="monument_plaque">\"Expulsion\" plaque at Mickiewicza Street</string>
+    <string name="monument_museum">Museum of Zielonka</string>
+
+    <string name="food_rozlogi">Restaurant \"Dwór Rozłogi\"</string>
+    <string name="food_cubana">Cubana Ristorante</string>
+    <string name="food_ring">Sushi Bar Ring</string>
+    <string name="food_ives">Bar Ives Kebab</string>
+    <string name="food_dagrasso">Pizzeria \"Da Grasso\"</string>
+    <string name="food_mackjack">MacJack</string>
+
+    <string name="hotel_pietrzakow">Hotel \"U Pietrzaków\" ul. Lipowa 20 Zielonka</string>
+    <string name="hotel_trylogia">Hotel Trylogia ul. Poniatowskiego 46 Zielonka</string>
+    <string name="hotel_evotel">Hostel Evotel ul. Południowa 9 Zielonka</string>
+    <string name="hotel_crysti">Crysti Polski Dom ul. Poniatowskiego 62 Zielonka</string>
+    <string name="hotel_copa">Motel Copa Cabana ul. Marecka 51 Zielonka</string>
+
+    <string name="transport_pkp">PKP Koleje Mazowieckie from Dworzec Wileński Station</string>
+    <string name="transport_lz1">Local line LZ-1</string>
+    <string name="transport_lz2">Local line LZ-2</string>
+    <string name="transport_w">Stalko line W</string>
+    <string name="transport_j">Stalko line J</string>
 </resources>
