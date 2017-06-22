@@ -18,15 +18,15 @@ public class HotelsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.attractions_list, container, false);
-
         ListView listView = (ListView) rootView.findViewById(R.id.list);
-
         ArrayList<Attraction> attractionsList = new ArrayList<>();
-        attractionsList.add(new Attraction("Hotel \"U Pietrzaków\""));
+        attractionsList.add(new Attraction(getString(R.string.hotel_1)));
+        attractionsList.add(new Attraction(getString(R.string.hotel_2)));
+        attractionsList.add(new Attraction(getString(R.string.hotel_3)));
+        attractionsList.add(new Attraction(getString(R.string.hotel_4)));
+        attractionsList.add(new Attraction(getString(R.string.hotel_5)));
         AttractionsAdapter attractionsAdapter = new AttractionsAdapter(getActivity(), attractionsList);
-
         listView.setAdapter(attractionsAdapter);
-
         return rootView;
     }
 }

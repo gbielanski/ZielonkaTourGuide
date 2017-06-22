@@ -12,4 +12,18 @@
     <string name="food_4">Bar Ives Kebab</string>
     <string name="food_5">Pizzeria \"Da Grasso\"</string>
     <string name="tab_hotels">Hotels</string>
+    <string name="hotel_1">Hotel \"U Pietrzaków\" ul. Lipowa 20 Zielonka</string>
+    <string name="hotel_2">Hotel Trylogia ul. Poniatowskiego 46 Zielonka</string>
+    <string name="hotel_3">Hostel Evotel ul. Południowa 9 Zielonka</string>
+    <string name="hotel_4">Crysti Polski Dom ul. Poniatowskiego 62 Zielonka</string>
+    <string name="hotel_5">Motel Copa Cabana ul. Marecka 51 Zielonka</string>
+    <string name="food_6">MacJack</string>
+    <string name="transport_1">PKP Koleje Mazowieckie from Dworzec Wileński Station</string>
+    <string name="transport_2">Local line LZ-1</string>
+    <string name="transport_3">Local line LZ-2</string>
+    <string name="transport_4">Stalko line W</string>
+    <string name="transport_5">Stalko line J</string>
+    <string name="monument_4">The summer residence on the 11th Street of Kolejowa from the 18th century</string>
+    <string name="monument_5">\"Expulsion\" plaque at Mickiewicza Street</string>
+    <string name="monument_6">Museum of Zielonka</string>
 </resources>

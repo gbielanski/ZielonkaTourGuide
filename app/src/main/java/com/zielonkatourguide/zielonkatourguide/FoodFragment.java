@@ -23,17 +23,15 @@ public class FoodFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootElement = inflater.inflate(R.layout.attractions_list, container, false);
         ListView listView = (ListView) rootElement.findViewById(R.id.list);
-
         ArrayList<Attraction> monumentsList = new ArrayList<>();
         monumentsList.add(new Attraction(getString(R.string.food_1)));
         monumentsList.add(new Attraction(getString(R.string.food_2)));
         monumentsList.add(new Attraction(getString(R.string.food_3)));
         monumentsList.add(new Attraction(getString(R.string.food_4)));
         monumentsList.add(new Attraction(getString(R.string.food_5)));
-
+        monumentsList.add(new Attraction(getString(R.string.food_6)));
         attractionsAdapter = new AttractionsAdapter(getActivity(), monumentsList);
         listView.setAdapter(attractionsAdapter);
-
         return rootElement;
 
     }

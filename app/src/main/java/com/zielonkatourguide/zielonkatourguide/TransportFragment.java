@@ -19,19 +19,14 @@ public class TransportFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootElement = inflater.inflate(R.layout.attractions_list, container, false);
-
         ListView listView = (ListView)rootElement.findViewById(R.id.list);
-
         ArrayList<Attraction> attractionsList = new ArrayList<>();
-
-        attractionsList.add(new Attraction("PKP Koleje Mazowieckie from Dworzec Wileński Station"));
-        attractionsList.add(new Attraction("Local bus line LZ-1"));
-        attractionsList.add(new Attraction("Local bus line LZ-2"));
-        attractionsList.add(new Attraction("Stalko bus line W"));
-        attractionsList.add(new Attraction("Stalko bus line J"));
-
+        attractionsList.add(new Attraction(getString(R.string.transport_1)));
+        attractionsList.add(new Attraction(getString(R.string.transport_2)));
+        attractionsList.add(new Attraction(getString(R.string.transport_3)));
+        attractionsList.add(new Attraction(getString(R.string.transport_4)));
+        attractionsList.add(new Attraction(getString(R.string.transport_5)));
         AttractionsAdapter attractionsAdapter = new AttractionsAdapter(getActivity(), attractionsList);
-
         listView.setAdapter(attractionsAdapter);
         return rootElement;
     }
